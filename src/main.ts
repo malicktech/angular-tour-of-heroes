@@ -9,3 +9,5 @@ if (environment.production) {
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule);
+
+// main.ts file that is responsible for compiling the application with the JIT compiler and bootstraps the application to run in the browser.
