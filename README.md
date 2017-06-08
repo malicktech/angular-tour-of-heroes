@@ -1,6 +1,18 @@
 # AngularTourOfHeroes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.4.
+[The Tour of Heroes tutorial] (https://angular.io/docs/ts/latest/tutorial/)
+
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
+
+## added package
+
+
+npm install --save angular2-in-memory-web-api
+npm install --save angular-in-memory-web-api
+npm install --save @angular/material
+
+
 
 ## Development server
 
@@ -26,3 +38,9 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+# TODO
+
+https://material.angular.io/guide/getting-started
+boostraps
