@@ -42,5 +42,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # TODO
 
+Backend 1 - Spring boot : http://chariotsolutions.com/blog/post/angular-2-spring-boot-jwt-cors_part1/
+backend 2 - move it to MEAN stack : mongo, express, ...
+
 https://material.angular.io/guide/getting-started
 boostraps
+
+# TOO 2 
+
+Hateos
+and a true REST API would employ HATEOAS, and not expose the id as part of an object's JSON representation. However, like many REST-ish applications, the Tour of Heroes front-end does not not make use of API-provided hypertext links, and instead uses object ids and well-known endpoint URI patterns to form the URLs used to interact with the API. Since HATEOAS is not the subject of this article, we'll just have the API expose object ids.
+

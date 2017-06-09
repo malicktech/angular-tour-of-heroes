@@ -10,17 +10,18 @@ import { HEROES } from './mock-heroes';
 @Injectable()
 export class HeroService {
 
-    private heroesUrl = 'api/heroes';  // URL to web api
+    private heroesUrl = 'http://localhost:8080/heroes';  // URL to web api
 
     private headers = new Headers({ 'Content-Type': 'application/json' });
 
 
-    constructor(private http: Http) { }
+    constructor(private http: Http) { 
+    }
 
     getHeroes(): Promise<Hero[]> { // Promise-returning
         return this.http.get(this.heroesUrl) // returns an RxJS Observable
             .toPromise() // converted the Observable to a Promise
-            .then(response => response.json().data as Hero[]) // Extracting the data in the then callback
+            .then(response => response.json()._embedded.heroes as Hero[]) // Extracting the data in the then callback
             .catch(this.handleError); // catch server failures
     }
 
@@ -37,7 +38,7 @@ export class HeroService {
         return this.http
             .post(this.heroesUrl, JSON.stringify({ name: name }), { headers: this.headers })
             .toPromise()
-            .then(res => res.json().data as Hero)
+            .then(res => res.json() as Hero)
             .catch(this.handleError);
     }
 
