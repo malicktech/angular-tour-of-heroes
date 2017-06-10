@@ -12,6 +12,9 @@ npm install --save angular2-in-memory-web-api
 npm install --save angular-in-memory-web-api
 npm install --save @angular/material
 
+npm install --save @ng-bootstrap/ng-bootstrap		|	https://github.com/ng-bootstrap/ng-bootstrap
+
+
 
 
 ## Development server
@@ -40,6 +43,11 @@ Before running the tests make sure you are serving the app via `ng serve`.
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
+
+# DONE
+- [The Tour of Heroes tutorial] (https://angular.io/docs/ts/latest/tutorial/)
+- [Forms](https://angular.io/docs/ts/latest/guide/forms.html)
+
 # TODO
 
 Backend 1 - Spring boot : http://chariotsolutions.com/blog/post/angular-2-spring-boot-jwt-cors_part1/
@@ -50,6 +58,14 @@ boostraps
 
 # TOO 2 
 
-Hateos
+
+
+- [Form validation](https://angular.io/docs/ts/latest/cookbook/form-validation.html)
+
+- Hateos
 and a true REST API would employ HATEOAS, and not expose the id as part of an object's JSON representation. However, like many REST-ish applications, the Tour of Heroes front-end does not not make use of API-provided hypertext links, and instead uses object ids and well-known endpoint URI patterns to form the URLs used to interact with the API. Since HATEOAS is not the subject of this article, we'll just have the API expose object ids.
+
+- systemJS
+
+- Polyfills
 
