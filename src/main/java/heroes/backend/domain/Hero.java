@@ -13,7 +13,9 @@ public class Hero {
     private long id;
 
     private String name;
-
+    private String power;
+    private String alterEgo;
+    
     public long getId() {
         return id;
     }
@@ -29,4 +31,20 @@ public class Hero {
     public String getName() {
         return name;
     }
+
+	public String getPower() {
+		return power;
+	}
+
+	public void setPower(String power) {
+		this.power = power;
+	}
+
+	public String getAlterEgo() {
+		return alterEgo;
+	}
+
+	public void setAlterEgo(String alterEgo) {
+		this.alterEgo = alterEgo;
+	}
 }

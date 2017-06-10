@@ -1,8 +1,12 @@
 
 # acces
 
-http://localhost:8080/heroes
+- home : http://localhost:8080/heroes
 
+- H2’s web console : 
+	- http://localhost:8080/console
+	- jdbc:h2:mem:testdb
+	- root / root
 
 # DONE
 
