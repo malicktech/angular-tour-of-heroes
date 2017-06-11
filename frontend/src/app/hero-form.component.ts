@@ -25,4 +25,11 @@ export class HeroFormComponent {
     newHero() {
         this.model = new Hero(42, '', '');
     }
+
+    // Reveal in html:
+    //   Name via form.controls = {{showFormControls(heroForm)}}
+    showFormControls(form: any) {
+        return form && form.controls['name'] &&
+            form.controls['name'].value; // Dr. IQ
+    }
 }

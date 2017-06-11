@@ -10,7 +10,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 npm install --save angular2-in-memory-web-api
 npm install --save angular-in-memory-web-api
-npm install --save @angular/material
+npm install --save @angular/material  | https://material.angular.io/
+npm install --save @angular/animations
 
 npm install --save @ng-bootstrap/ng-bootstrap		|	https://github.com/ng-bootstrap/ng-bootstrap
 
@@ -59,6 +60,11 @@ boostraps
 # TOO 2 
 
 
+- Secutité : OAuth2 ou les JSON Web Tokens (JWT) 
+
+- https://angular.io/docs/ts/latest/guide/router.html
+
+- https://angular-2-training-book.rangle.io/
 
 - [Form validation](https://angular.io/docs/ts/latest/cookbook/form-validation.html)
 
